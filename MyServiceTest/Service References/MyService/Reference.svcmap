@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f18b4a25-c1ad-47c0-a5fb-a62ded16c9e8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6481/RedPill.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RedPill3.xsd" MetadataType="Schema" ID="84e5bf51-60bc-4795-8e05-30587e37f627" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?xsd=xsd2" />
+    <MetadataFile FileName="RedPill31.xsd" MetadataType="Schema" ID="91cf121f-0588-4a3c-8d5e-76ee2ecc49f5" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?xsd=xsd1" />
+    <MetadataFile FileName="RedPill32.xsd" MetadataType="Schema" ID="d5f6a7d6-a0af-46f8-9cdf-b20d218c7296" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?xsd=xsd0" />
+    <MetadataFile FileName="RedPill2.wsdl" MetadataType="Wsdl" ID="a2680d76-b71d-4ce5-9a47-f241f127fc1b" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?wsdl" />
+    <MetadataFile FileName="RedPill21.wsdl" MetadataType="Wsdl" ID="e1c2bbc1-fcc3-4e58-9ce8-59c829c886fa" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="RedPill1.disco" MetadataType="Disco" ID="8f4d9b52-2737-48c6-b25d-4ded616bb445" SourceId="1" SourceUrl="http://localhost:6481/RedPill.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

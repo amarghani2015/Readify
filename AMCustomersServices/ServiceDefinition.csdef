@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="AMCustomersServices" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WebRole name="WCFServiceWebRole1" vmsize="Small">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="HttpIn" />
+          <Binding name="Endpoint" endpointName="HttpsIn" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="HttpIn" protocol="http" port="80" />
+      <InputEndpoint name="HttpsIn" protocol="https" port="443" certificate="witc952712p1" />
+    </Endpoints>
+    <Certificates>
+      <Certificate name="witc952712p1" storeLocation="CurrentUser" storeName="My" />
+    </Certificates>
+    <ConfigurationSettings>
+    </ConfigurationSettings>
+  </WebRole>
+</ServiceDefinition>
